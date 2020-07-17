@@ -436,11 +436,11 @@ font-family: 'Lobster', cursive;
 	.header__nav { padding: 10px 0; }
 	.header__nav ul {display: none;}
 	.header__burger {
-		display: inline-block;
+		display: block;
 		position: relative;
 		transition: .3s all;
 		cursor: pointer;
-		background: #000;
+		width: 32px;
 		height: 20px;
 	}
 
@@ -463,11 +463,11 @@ font-family: 'Lobster', cursive;
 	}
 	
 	.header__burger.active span:nth-child(1) {
-		 top: 0;
+		 top: 8px;
 		 transform: rotate(45deg);
 	}
 	.header__burger.active span:nth-child(3) {
-		 top: 0;
+		 top: 8px;
 		 transform: rotate(-45deg);
 	}
 
